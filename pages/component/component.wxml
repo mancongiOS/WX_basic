@@ -1,0 +1,15 @@
+<!--pages/组件/组件.wxml-->
+<!-- 模板的引用 -->
+
+
+<import src="../template/entry-template/entry-template.wxml" />
+
+
+<view class="container">
+
+  <block wx:for="{{dataArr}}" wx:key="index" wx:item="item">
+  <view catchtap="onEntryTap" class='123' id="{{index}}" data-entryid='{{item.name}}'>
+      <template is="entry-template" data="{{...item}}" />
+  </view>
+  </block>
+</view>

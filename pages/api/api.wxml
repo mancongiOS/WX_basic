@@ -1,0 +1,12 @@
+<!--pages/api/api.wxml-->
+<import src="../template/entry-template/entry-template.wxml" />
+
+
+<view class="container">
+
+  <block wx:for="{{dataArr}}" wx:key="index" wx:item="item">
+  <view catchtap="onJumpTap" data-apiid='{{item.name}}'>
+      <template is="entry-template" data="{{...item}}" />
+  </view>
+  </block>
+</view>

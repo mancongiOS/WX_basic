@@ -1,0 +1,10 @@
+/* pages/api/pages/promptBox/promptBox.wxss */
+.contrainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-style {
+  font-size: 28rpx;
+  margin: 40rpx;
+}

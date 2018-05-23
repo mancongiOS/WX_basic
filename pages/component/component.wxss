@@ -1,0 +1,13 @@
+/* pages/组件/组件.wxss */
+/* 模板wxss的引用 */
+
+@import "../template/entry-template/entry-template.wxss";
+page {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+

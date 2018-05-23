@@ -1,0 +1,11 @@
+<!--pages/api/pages/promptBox/promptBox.wxml-->
+
+<view class="container">
+<button class="button-style" bindtap='oneTap'>消息提示框</button>
+<button class="button-style" bindtap='twoTap'>隐藏消息提示框</button>
+<button class="button-style" bindtap='threeTap'>loading提示框</button>
+<button class="button-style" bindtap='fourTap'>隐藏loading提示框</button>
+<button class="button-style" bindtap='fiveTap'>显示模态弹窗</button>
+<button class="button-style" bindtap='sixTap'>​显示操作菜单</button>
+
+</view>

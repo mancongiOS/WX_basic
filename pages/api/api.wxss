@@ -1,0 +1,12 @@
+/* pages/api/api.wxss */
+
+@import "../template/entry-template/entry-template.wxss";
+page {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+

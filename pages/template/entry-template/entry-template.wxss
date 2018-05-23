@@ -1,0 +1,23 @@
+
+.list-container {
+  background-color: #f0f0f0;
+  line-height: 100rpx;
+  margin: 20rpx;
+  display: flex;
+  /** 子元素的对齐方式
+  1. justify-conent 根据主轴对齐
+  2. align-items 根据侧轴对齐
+  */
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  margin-left: 15rpx;
+}
+
+.image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 15rpx;
+}
