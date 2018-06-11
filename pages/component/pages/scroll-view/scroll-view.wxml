@@ -1,0 +1,15 @@
+<view class='container'>
+  <scroll-view class="scroll-v" scroll-y lower-threshold="50" bindscrolltolower="scrolltolower">
+    <view class="scroll-item bc-red">1</view>
+    <view class="scroll-item bc-green">2</view>
+    <view class="scroll-item bc-orange">3</view>
+  </scroll-view>
+
+
+  <scroll-view class="scroll-h" scroll-x  scroll-left="{{top}}">
+    <view class="scroll-item-h bc-red">1</view>
+    <view class="scroll-item-h bc-green">2</view>
+    <view class="scroll-item-h bc-orange">3</view>
+  </scroll-view>
+
+</view>

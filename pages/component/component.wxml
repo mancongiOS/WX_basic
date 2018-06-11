@@ -8,7 +8,7 @@
 <view class="container">
 
   <block wx:for="{{dataArr}}" wx:key="index" wx:item="item">
-  <view catchtap="onEntryTap" class='123' id="{{index}}" data-entryid='{{item.name}}'>
+  <view catchtap="onEntryTap" data-name='{{item.name}}'>
       <template is="entry-template" data="{{...item}}" />
   </view>
   </block>

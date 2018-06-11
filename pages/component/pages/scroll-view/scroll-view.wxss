@@ -1,0 +1,32 @@
+/* pages/component/pages/scroll-view/scroll-view.wxss */
+
+.scroll-v {
+  width: 100%;
+   height: 200px; 
+}
+
+.scroll-item {
+  height: 200px;
+}
+.bc-red {
+  background-color: red;
+}
+.bc-green {
+  background-color: green;
+}
+
+.bc-orange {
+  background-color: orange;
+}
+
+.scroll-h {
+  white-space: nowrap;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.scroll-item-h {
+    display: inline-block;
+  width: 100%;
+  height: 200px;
+}

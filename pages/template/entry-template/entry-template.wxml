@@ -1,6 +1,6 @@
 <template name="entry-template">
   <view class="list-container">
     <text class="title">{{name}}</text>
-    <image class="image" src='{{image}}'></image>
+    <text class="detail">{{detail}}</text>
   </view>
 </template>

@@ -1,0 +1,14 @@
+<!--pages/component/pages/view/view.wxml-->
+<view> 
+  <view class='row-container'>
+    <view class='one' hover-class="hover" hover-stop-propagation="true" hover-start-time="1000" hover-stay-time='3000'>1</view>
+    <view class='two'>2</view>
+    <view class='three'>3</view>
+  </view>
+
+  <view class='column-container'>
+    <view class='one'>1</view>
+    <view class='two'>2</view>
+    <view class='three'>3</view>
+  </view>
+</view>

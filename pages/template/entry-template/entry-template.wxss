@@ -1,4 +1,3 @@
-
 .list-container {
   background-color: #f0f0f0;
   line-height: 100rpx;
@@ -16,8 +15,8 @@
   margin-left: 15rpx;
 }
 
-.image {
-  width: 60rpx;
-  height: 60rpx;
+.detail {
   margin-right: 15rpx;
+  font-size: 26rpx;
+  color: gray;
 }

@@ -13,8 +13,8 @@ Page({
    */
   onLoad: function (options) {
     let arr = [
-      { "name": "界面-提示语", "image": "/images/kind_api/page.png" },
-      { "name": "开放接口", "image": "/images/kind_api/api.png" }
+      { "name": "界面-提示语", "detail": "提示语" },
+      { "name": "开放接口", "detail": "开放接口" }
     ];
 
     this.setData({

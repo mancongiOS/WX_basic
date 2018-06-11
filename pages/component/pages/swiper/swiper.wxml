@@ -1,0 +1,15 @@
+<!--pages/component/pages/swiper/swiper.wxml-->
+<view class="container">
+  <swiper class="swiper" indicator-dots autoplay circular indicator-color='gray' indicator-active-color='red' interval="3000" bindchange="bindchange" bindanimationfinish="animationfinish" catchtap="onItemClick" current-item-id="{{index}}">
+    <swiper-item item-id="0">
+      <view class="swiper-item swiper-item-zero" data-postId="0">第0个</view>
+    </swiper-item>
+    <swiper-item item-id="1">
+      <view class="swiper-item swiper-item-one" data-postId="1">第1页</view>
+    </swiper-item>
+    <swiper-item item-id="2">
+      <view class="swiper-item swiper-item-two" data-postId="2">第2页</view>
+    </swiper-item>
+  </swiper>
+</view>
+

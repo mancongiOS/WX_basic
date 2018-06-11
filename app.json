@@ -1,8 +1,11 @@
 {
   "pages": [
-    "pages/api/api",
     "pages/component/component",
-    "pages/api/pages/promptBox/promptBox"
+    "pages/api/api",
+    "pages/api/pages/promptBox/promptBox",
+    "pages/component/pages/view/view",
+    "pages/component/pages/scroll-view/scroll-view",
+    "pages/component/pages/swiper/swiper"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,16 +26,16 @@
     "backgroundColor": " #ffffff",
     "list": [
       {
-        "pagePath": "pages/api/api",
-        "text": "接口",
-        "iconPath": "/images/icon_API.png",
-        "selectedIconPath": "/images/icon_API_HL.png"
-      },
-      {
         "pagePath": "pages/component/component",
         "text": "组件",
         "iconPath": "/images/icon_component.png",
         "selectedIconPath": "/images/icon_component_HL.png"
+      },
+      {
+        "pagePath": "pages/api/api",
+        "text": "接口",
+        "iconPath": "/images/icon_API.png",
+        "selectedIconPath": "/images/icon_API_HL.png"
       }
     ]
   },
