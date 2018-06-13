@@ -1,2 +1,9 @@
 <!--pages/component/pages/text/text.wxml-->
-<text>pages/component/pages/text/text.wxml</text>
+
+<view class="container">
+  <text class="text" selectable="{{false}}" space="ensp">中文 字符空格一半大小</text>
+  <text class="text" space="emsp">中文 字符空格大小</text>
+  <text class="text" space="nbsp">根据 字体设置的空格大小</text>
+</view>
+
+<text decode="{{true}}">&emsp;&emsp;首行空两格\n第二行</text>

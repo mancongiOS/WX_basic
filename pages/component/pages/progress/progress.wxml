@@ -1,2 +1,17 @@
-<!--pages/component/pages/progress/progress.wxml-->
-<text>pages/component/pages/progress/progress.wxml</text>
+<view>
+
+  <progress class="progress"></progress>
+
+  <progress class="progress" percent="50" stroke-width='20'></progress>
+
+
+  <progress class="progress" percent="50" backgroundColor="gray" activeColor="red"></progress>
+
+
+  <progress class="progress" percent="50" show-info/>
+
+  <progress class="progress" percent="50" show-info active/>
+
+  <progress class="progress" percent="50" show-info active active-mode="forwards" />
+
+</view>

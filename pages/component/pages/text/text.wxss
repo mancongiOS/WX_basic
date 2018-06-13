@@ -1,1 +1,10 @@
 /* pages/component/pages/text/text.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 50rpx;
+}
