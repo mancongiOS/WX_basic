@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_title_less {
+  font-size: 28rpx;
+}
+
+.area_less {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.view_less {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+}
+
+.section_title_more {
+  font-size: 28rpx;
+  margin-top: 50px;
+}
+
+.area_more {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+.view_more {
+  height: 200px;
+  width: 200px;
+  border-color: green;
+  border-width: 2px;
+  border-style: solid;
+}

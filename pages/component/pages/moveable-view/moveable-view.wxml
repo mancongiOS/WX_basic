@@ -1,0 +1,15 @@
+<!--pages/component/pages/moveable-view/moveable-view.wxml-->
+
+<view class='container'>
+  <view class="section_title_less"> movable-view区域小于movable-area </view>
+  <movable-area class="area_less" scale-area>
+    <movable-view class="view_less" direction="all" scale inertia out-of-bounds x="{{x}}" y="{{y}}" damping="1" friction="200" bindchange="change" bindscale="scale"></movable-view>
+  </movable-area>
+
+  <view class="section_title_more"> movable-view区域大于movable-area </view>
+  <movable-area class="area_more" scale-area>
+    <movable-view class="view_more" direction="all">
+      <text>可移动的view</text>
+    </movable-view>
+  </movable-area>
+</view>

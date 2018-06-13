@@ -5,7 +5,14 @@
     "pages/api/pages/promptBox/promptBox",
     "pages/component/pages/view/view",
     "pages/component/pages/scroll-view/scroll-view",
-    "pages/component/pages/swiper/swiper"
+    "pages/component/pages/swiper/swiper",
+    "pages/component/pages/moveable-view/moveable-view",
+    "pages/component/pages/cover-view/cover-view",
+    "pages/component/pages/icon/icon",
+    "pages/component/pages/text/text",
+    "pages/component/pages/rich-text/rich-text",
+    "pages/component/pages/progress/progress"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

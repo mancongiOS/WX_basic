@@ -1,0 +1,14 @@
+<view class="group">
+
+  <block wx:for="{{iconData}}" wx:key="index">
+
+    <view class="itemContainer">
+
+      <icon type="{{item.iconType}}" size="{{item.iconSize}}" color="{{item.iconColor}}" bindtap="iconTap" data-icon="{{index}}"></icon>
+    
+      <text class="itemText">{{"状态描述: " + item.iconType}}</text>
+    
+    </view>
+
+  </block>
+</view>
