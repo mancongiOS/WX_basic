@@ -59,10 +59,10 @@ Page({
       // title: '模态弹窗',
       content: '显示模态弹窗的详情',
       showCancel: true,           // 是否显示取消按钮，默认为 true
-      cancelText : "自定取消",
-      cancelColor: "red",
-      confirmText : "自定确定",
-      confirmColor : "green",
+      // cancelText : "自定取消",
+      // cancelColor: "red",
+      confirmText : "确定",
+      // confirmColor : "green",
 
       /** success返回参数说明
        * confirm 为 true 时，表示用户点击了确定按钮

@@ -1,0 +1,28 @@
+<button class="button">这是一个默认的按钮</button>
+<button class="button" type="primary">这是一个type="primary"的按钮</button>
+
+<button class="button" type="warn">这是一个type="warn"的按钮</button>
+
+<button class="button" size="mini">这是一个size="mini"的按钮</button>
+
+
+
+<button class="button" plain>这是一个plain="{{true}}"的按钮</button>
+
+<button class="button" disabled>这是一个disabled="{{true}}"的按钮</button>
+
+<button class="button" loading>这是一个loading="{{true}}"的按钮</button>
+
+<button class="button" hover-class>这是一个hover-class="none"的按钮(取消点击效果)</button>
+
+<button class="button" open-type="getUserInfo" lang="=zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+
+<button class="button" open-type="getPhoneNumber" bindgetphonenumber="getphonenumber">获取用户手机号</button>
+
+<button class="button" open-type="openSetting" >打开授权页面</button>
+
+<button class="button" open-type="share" >触发用户转发</button>
+
+<button class="button" open-type="contact" send-message-title="标题" show-message-card bindcontact="contact">打开客服会话</button>
+
+<button class="button" open-type="launchApp" app-parameter="wechat" binderror="launchAppError">打开APP</button>

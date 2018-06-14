@@ -11,13 +11,18 @@
     "pages/component/pages/icon/icon",
     "pages/component/pages/text/text",
     "pages/component/pages/rich-text/rich-text",
-    "pages/component/pages/progress/progress"
-    
+    "pages/component/pages/progress/progress",
+    "pages/component/pages/button/button",
+    "pages/component/pages/checkbox/checkbox",
+    "pages/component/pages/slider/slider",
+    "pages/component/pages/radio/radio",    
+    "pages/component/pages/form/form",
+    "pages/component/pages/input/input"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "MC",
     "navigationBarTextStyle": "black"
   },
   "networkTimeout": {
@@ -30,7 +35,7 @@
     "color": "#7A7E83",
     "selectedColor": "#3cc51f",
     "borderStyle": "black",
-    "backgroundColor": " #ffffff",
+    "backgroundColor": "#ffffff",
     "list": [
       {
         "pagePath": "pages/component/component",

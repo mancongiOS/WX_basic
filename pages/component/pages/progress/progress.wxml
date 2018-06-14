@@ -4,9 +4,7 @@
 
   <progress class="progress" percent="50" stroke-width='20'></progress>
 
-
   <progress class="progress" percent="50" backgroundColor="gray" activeColor="red"></progress>
-
 
   <progress class="progress" percent="50" show-info/>
 

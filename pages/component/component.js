@@ -23,10 +23,17 @@ Page({
 
       { "name": "基础内容 icon", "detail": "图标" },
       { "name": "基础内容 text", "detail": "文本" },
-      { "name": "基础内容 rich-text", "detail": "富文本" },
+      { "name": "基础内容 rich-text", "detail": "富文本  ---未完成" },
       { "name": "基础内容 progress", "detail": "进度条" },
       {},
       {},
+
+      { "name": "表单组件 button", "detail": "按钮" },
+      { "name": "表单组件 checkbox", "detail": "多项选择器" },
+      { "name": "表单组件 slider", "detail": "滑动选择器" },
+      { "name": "表单组件 radio", "detail": "单项选择器" },
+      { "name": "表单组件 form", "detail": "表单" },
+      { "name": "表单组件 input", "detail": "输入框" },
 
 
     ];
@@ -78,14 +85,44 @@ Page({
           url: '/pages/component/pages/text/text',
         });
         break
-      case "基础内容 text-rich":
+      case "基础内容 rich-text":
         wx.navigateTo({
-          url: '/pages/component/pages/text-rich/text-rich',
+          url: '/pages/component/pages/rich-text/rich-text',
         });
         break
       case "基础内容 progress":
         wx.navigateTo({
           url: '/pages/component/pages/progress/progress',
+        });
+
+
+      case "表单组件 button":
+        wx.navigateTo({
+          url: '/pages/component/pages/button/button',
+        });
+        break
+      case "表单组件 checkbox":
+        wx.navigateTo({
+          url: '/pages/component/pages/checkbox/checkbox',
+        });
+      case "表单组件 slider":
+        wx.navigateTo({
+          url: '/pages/component/pages/slider/slider',
+        });
+        break
+      case "表单组件 radio":
+        wx.navigateTo({
+          url: '/pages/component/pages/radio/radio',
+        });
+        break
+      case "表单组件 form":
+        wx.navigateTo({
+          url: '/pages/component/pages/form/form',
+        });
+        break
+      case "表单组件 input":
+        wx.navigateTo({
+          url: '/pages/component/pages/input/input',
         });
         break
       default:

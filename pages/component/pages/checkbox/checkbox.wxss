@@ -1,0 +1,16 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.selected {
+  margin-top: 50rpx;
+  font-size: 30rpx;
+}

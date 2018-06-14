@@ -1,0 +1,1 @@
+<slider value="{{value}}" backgroundColor="gray" activeColor="red" block-size="12"show-value bindchange="change" bindchanging="changing"></slider>

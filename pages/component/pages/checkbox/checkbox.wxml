@@ -1,0 +1,11 @@
+<checkbox-group class="group" bindchange="checkboxChange">
+
+  <block wx:for="{{items}}" wx:item="item">
+    <view class="item">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}" color="{{item.color}}" disabled="{{item.disabled}}" />{{item.value}}
+    </view>
+  </block>
+
+</checkbox-group>
+
+<text class="selected">{{seletedStr}}</text>
