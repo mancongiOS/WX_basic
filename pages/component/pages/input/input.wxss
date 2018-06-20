@@ -1,1 +1,8 @@
-/* pages/component/pages/input/input.wxss */
+.input {
+  background-color: lightgray;
+  margin-top: 500px;
+}
+
+.placeholder {
+  color: red;
+}

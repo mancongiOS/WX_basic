@@ -13,11 +13,11 @@ Page({
    */
   onLoad: function (options) {
     let arr = [
-      { "name": "视图容器 view",         "detail": "视图容器" },
-      { "name": "视图容器 scroll-view",  "detail": "可滚动视图" },
-      { "name": "视图容器 swiper",       "detail": "滑块视图容器" },
+      { "name": "视图容器 view", "detail": "视图容器" },
+      { "name": "视图容器 scroll-view", "detail": "可滚动视图" },
+      { "name": "视图容器 swiper", "detail": "滑块视图容器" },
       { "name": "视图容器 movable-view", "detail": "移动视图" },
-      { "name": "视图容器 cover-view",   "detail": "覆盖视图" },
+      { "name": "视图容器 cover-view", "detail": "覆盖视图" },
       {},
       {},
 
@@ -32,8 +32,10 @@ Page({
       { "name": "表单组件 checkbox", "detail": "多项选择器" },
       { "name": "表单组件 slider", "detail": "滑动选择器" },
       { "name": "表单组件 radio", "detail": "单项选择器" },
-      { "name": "表单组件 form", "detail": "表单" },
       { "name": "表单组件 input", "detail": "输入框" },
+      { "name": "表单组件 switch", "detail": "开关选择器" },
+      { "name": "表单组件 picker-view", "detail": "嵌入页面的滚动选择器" },
+      { "name": "表单组件 form", "detail": "表单" },
 
 
     ];
@@ -115,17 +117,30 @@ Page({
           url: '/pages/component/pages/radio/radio',
         });
         break
-      case "表单组件 form":
-        wx.navigateTo({
-          url: '/pages/component/pages/form/form',
-        });
-        break
       case "表单组件 input":
         wx.navigateTo({
           url: '/pages/component/pages/input/input',
         });
         break
+      case "表单组件 form":
+        wx.navigateTo({
+          url: '/pages/component/pages/form/form',
+        });
+        break
+      case "表单组件 switch":
+        wx.navigateTo({
+          url: '/pages/component/pages/switch/switch',
+        });
+        break
+      case "表单组件 picker-view":
+        wx.navigateTo({
+          url: '/pages/component/pages/picker-view/picker-view',
+        });
+        break
+
+
       default:
+
         break
     }
 

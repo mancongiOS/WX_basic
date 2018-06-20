@@ -1,0 +1,5 @@
+
+
+<switch type="checkbox" checked color="red" bindchange="change"></switch>
+
+<switch type="switch" checked color="green" bindchange="change"></switch>

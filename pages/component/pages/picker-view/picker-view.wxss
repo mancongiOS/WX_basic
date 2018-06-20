@@ -1,0 +1,25 @@
+.picker {
+  background-color: yellow;
+  width: 80%;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.indicator {
+  height: 100rpx;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+.column {
+  font-size: 24rpx;
+  color: red;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+.result {
+  text-align: center;
+  margin-top: 50px;
+}

@@ -1,2 +1,1 @@
-<!--pages/component/pages/input/input.wxml-->
-<text>pages/component/pages/input/input.wxml</text>
+<input class="input" value="0123456789" placeholder="13" type="number" password placeholder-class="placeholder" cursor-spacing="200" focus cursor="500" bindfocus="focus" bindblur="blur" bindinput="input" bindconfirm="confirm"></input>

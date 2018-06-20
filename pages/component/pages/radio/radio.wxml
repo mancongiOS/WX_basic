@@ -1,3 +1,4 @@
+
 <radio-group class="radio-group" bindchange="radioChange">
   <label class="radio" wx:for="{{items}}">
     <radio class="radio" value="{{item.name}}" checked="{{item.checked}}" disabled="{{item.disabled}}" />{{item.value}}
