@@ -1,0 +1,64 @@
+<view>
+  <!-- 普通选择器 -->
+  <view class="picker-container">
+    <text>普通选择器(字符串数组数据)：mode = selector</text>
+    <picker class="picker" mode="selector" range="{{array}}" value="{{index}}" bindchange="bindPickerChange" bindcancel="cancel">
+      <view class="picker">
+        当前选择：{{array[index]}}
+      </view>
+    </picker>
+  </view>
+
+  <!-- 普通选择器 -->
+  <view class="picker-container">
+    <text>普通选择器（对象数组数据）：mode = selector</text>
+    <picker class="picker" mode="selector" range="{{objectArray}}" range-key="name" value="{{index}}" bindchange="bindPickerChange">
+      <view class="picker">
+        当前选择：{{objectArray[index].name}}
+      </view>
+    </picker>
+  </view>
+
+  <!-- 多列选择器 -->
+  <view class="picker-container">
+    <text>多列选择器(二维数组) ：mode = multiSelector</text>
+    <picker class="picker" mode="multiSelector" range="{{multiArray}}" value="{{multiIndex}}" bindchange="multiBindchange">
+      <view class="picker">
+        当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
+      </view>
+    </picker>
+  </view>
+
+  <!-- 时间选择器 -->
+  <view class="picker-container">
+    <text>时间选择器：mode = time</text>
+    <picker class="picker" mode="time" value="{{timeValue}}" start="{{start}}" end="{{end}}" bindchange="timeChange">
+      <view class="picker">
+        当前选择: {{timeValue}}
+      </view>
+    </picker>
+  </view>
+
+
+  <!-- 日期选择器 -->
+  <view class="picker-container">
+    <text>日期选择器：mode = date</text>
+    <picker class="picker" fields="month" mode="date" value="{{dateValue}}" start="{{dateStart}}" end="{{dateEnd}}" bindchange="dateChange">
+      <view class="picker">
+        当前选择: {{dateValue}}
+      </view>
+    </picker>
+  </view>
+
+
+  <!-- 日期选择器 -->
+  <view class="picker-container">
+    <text>省市区选择器：mode = region</text>
+    <picker class="picker"  mode="region" value="{{regionValue}}" custom-item="{{custom}}" bindchange="regionChange">
+      <view class="picker">
+        当前选择: {{regionValue}}
+      </view>
+    </picker>
+  </view>
+
+</view>

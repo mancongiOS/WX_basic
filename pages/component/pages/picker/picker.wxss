@@ -1,0 +1,12 @@
+.picker-container {
+  text-align: center;
+  margin-top: 20px;
+  background-color: yellow;
+  font-size: 40rpx;
+}
+
+.picker {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: orange;
+}

@@ -35,6 +35,7 @@ Page({
       { "name": "表单组件 input", "detail": "输入框" },
       { "name": "表单组件 switch", "detail": "开关选择器" },
       { "name": "表单组件 picker-view", "detail": "嵌入页面的滚动选择器" },
+      { "name": "表单组件 picker", "detail": "底部弹起的滚动选择器" },
       { "name": "表单组件 form", "detail": "表单" },
 
 
@@ -132,6 +133,12 @@ Page({
           url: '/pages/component/pages/switch/switch',
         });
         break
+      case "表单组件 picker":
+        wx.navigateTo({
+          url: '/pages/component/pages/picker/picker',
+        });
+        break
+        
       case "表单组件 picker-view":
         wx.navigateTo({
           url: '/pages/component/pages/picker-view/picker-view',

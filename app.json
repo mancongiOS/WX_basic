@@ -19,7 +19,8 @@
     "pages/component/pages/form/form",
     "pages/component/pages/input/input",
     "pages/component/pages/switch/switch",
-    "pages/component/pages/picker-view/picker-view"
+    "pages/component/pages/picker-view/picker-view",
+    "pages/component/pages/picker/picker"
   ],
   "window": {
     "backgroundTextStyle": "light",
